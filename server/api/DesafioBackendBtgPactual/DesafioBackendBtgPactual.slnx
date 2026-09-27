@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DesafioBackendBtgPactual.Api/DesafioBackendBtgPactual.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>

@@ -1,0 +1,6 @@
+services:
+  desafiobackendbtgpactual.api:
+    image: ${DOCKER_REGISTRY-}desafiobackendbtgpactualapi
+    build:
+      context: .
+      dockerfile: src/DesafioBackendBtgPactual.Api/Dockerfile
